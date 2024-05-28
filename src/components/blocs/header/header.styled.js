@@ -24,6 +24,7 @@ export const HeaderMainContainer = styled.div`
     color: white;
     font-size: larger;
      backdrop-filter: blur(8px);
+     -webkit-backdrop-filter: blur(10px);
      border-radius: 20px;
 padding: 20px 40px;
      gap: 30px;

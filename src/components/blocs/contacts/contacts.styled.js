@@ -15,6 +15,7 @@ export const ContactsContainer = styled.div`
     height: 100%;
     width: 100%;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
           display: flex;
       gap: 20px;
       justify-content: center;
@@ -101,6 +102,7 @@ padding: 10px;
     border: none;
      background-color: rgba(255, 255, 255, 0.2); /* Прозрачный цвет */
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
             font-size: 1.2rem;
     font-weight: 600;
@@ -124,6 +126,7 @@ padding: 10px;
     border: none;
      background-color: rgba(255, 255, 255, 0.2); /* Прозрачный цвет */
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
                 font-size: 1.2rem;
     font-weight: 600;
