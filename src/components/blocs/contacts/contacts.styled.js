@@ -4,12 +4,18 @@ import backgraundImg from "../../../img/imgonline-com-ua-Black-White-hb0WXheGwe.
 export const ContactsContainer = styled.div`
   width: 100%;
   background-image: url(${backgraundImg});
-  height: 500px;
+ height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
-  display: flex;
+  display: grid;
+   gap: 50px;
+
+        @media only screen and (min-width: 768px) {
+    display: flex;
+ height: 500px;
+  }
 
   .ContentContainer {
     height: 100%;
