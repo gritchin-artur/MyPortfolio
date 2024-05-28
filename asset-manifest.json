@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/MyPortfolio/static/js/main.44ff9839.js",
-    "static/js/973.a5ff33c2.chunk.js": "/MyPortfolio/static/js/973.a5ff33c2.chunk.js",
+    "main.js": "/MyPortfolio/static/js/main.997ea3df.js",
+    "static/js/973.120220f9.chunk.js": "/MyPortfolio/static/js/973.120220f9.chunk.js",
     "static/js/464.e99e0437.chunk.js": "/MyPortfolio/static/js/464.e99e0437.chunk.js",
     "static/js/301.1d911d8e.chunk.js": "/MyPortfolio/static/js/301.1d911d8e.chunk.js",
-    "static/js/244.6694136c.chunk.js": "/MyPortfolio/static/js/244.6694136c.chunk.js",
-    "static/js/450.abdc2f45.chunk.js": "/MyPortfolio/static/js/450.abdc2f45.chunk.js",
+    "static/js/688.089ed9bb.chunk.js": "/MyPortfolio/static/js/688.089ed9bb.chunk.js",
+    "static/js/626.4dc0daf3.chunk.js": "/MyPortfolio/static/js/626.4dc0daf3.chunk.js",
     "static/css/518.d0c86d82.chunk.css": "/MyPortfolio/static/css/518.d0c86d82.chunk.css",
     "static/js/518.203b8974.chunk.js": "/MyPortfolio/static/js/518.203b8974.chunk.js",
     "static/js/253.4db0f31f.chunk.js": "/MyPortfolio/static/js/253.4db0f31f.chunk.js",
@@ -37,16 +37,18 @@
     "static/media/imgonline-com-ua-Black-White-hb0WXheGwe.jpg": "/MyPortfolio/static/media/imgonline-com-ua-Black-White-hb0WXheGwe.037fe78a7f267bb100bf.jpg",
     "static/media/svg_github.svg": "/MyPortfolio/static/media/svg_github.ca0ce6ca8a2add091cf891bc7af1038c.svg",
     "static/media/svg_internet.svg": "/MyPortfolio/static/media/svg_internet.060bfe118ae2f43969da478d7f30213a.svg",
+    "static/media/paperAirplane.svg": "/MyPortfolio/static/media/paperAirplane.e138e5f6a55d9eeaacbc0c0e26b1d4fe.svg",
     "index.html": "/MyPortfolio/index.html",
-    "static/media/phone-call-svgrepo-com-2.svg": "/MyPortfolio/static/media/phone-call-svgrepo-com-2.8206f42d0ccc0487429d6b9cabd976b1.svg",
-    "static/media/email-svgrepo-com-2.svg": "/MyPortfolio/static/media/email-svgrepo-com-2.b25af07058aef41dce3ffa86768586fc.svg",
+    "static/media/link.svg": "/MyPortfolio/static/media/link.9f026c99346b48cf73a51cc61bd739a1.svg",
+    "static/media/phone-call-svgrepo-com-2.svg": "/MyPortfolio/static/media/phone-call-svgrepo-com-2.70d4d7f18811cc7a1ed9f479a147b209.svg",
+    "static/media/email-svgrepo-com-2.svg": "/MyPortfolio/static/media/email-svgrepo-com-2.ed51749808a26b7ea04d5fb9070a00c1.svg",
     "main.e6c13ad2.css.map": "/MyPortfolio/static/css/main.e6c13ad2.css.map",
-    "main.44ff9839.js.map": "/MyPortfolio/static/js/main.44ff9839.js.map",
-    "973.a5ff33c2.chunk.js.map": "/MyPortfolio/static/js/973.a5ff33c2.chunk.js.map",
+    "main.997ea3df.js.map": "/MyPortfolio/static/js/main.997ea3df.js.map",
+    "973.120220f9.chunk.js.map": "/MyPortfolio/static/js/973.120220f9.chunk.js.map",
     "464.e99e0437.chunk.js.map": "/MyPortfolio/static/js/464.e99e0437.chunk.js.map",
     "301.1d911d8e.chunk.js.map": "/MyPortfolio/static/js/301.1d911d8e.chunk.js.map",
-    "244.6694136c.chunk.js.map": "/MyPortfolio/static/js/244.6694136c.chunk.js.map",
-    "450.abdc2f45.chunk.js.map": "/MyPortfolio/static/js/450.abdc2f45.chunk.js.map",
+    "688.089ed9bb.chunk.js.map": "/MyPortfolio/static/js/688.089ed9bb.chunk.js.map",
+    "626.4dc0daf3.chunk.js.map": "/MyPortfolio/static/js/626.4dc0daf3.chunk.js.map",
     "518.d0c86d82.chunk.css.map": "/MyPortfolio/static/css/518.d0c86d82.chunk.css.map",
     "518.203b8974.chunk.js.map": "/MyPortfolio/static/js/518.203b8974.chunk.js.map",
     "253.4db0f31f.chunk.js.map": "/MyPortfolio/static/js/253.4db0f31f.chunk.js.map",
@@ -54,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.44ff9839.js"
+    "static/js/main.997ea3df.js"
   ]
 }
