@@ -6,6 +6,7 @@ export default function HardSkils() {
       <h2 className="TitleHardSkils">Hard Skils</h2>
       <ul className="SkilsList">
         <li className="SkilsElement">
+          <a className="Link" href="https://ru.wikipedia.org/wiki/HTML">
           <img
             className="Img"
             alt="HTML"
@@ -13,9 +14,11 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">HTML</p>
+            <p className="TextSkil">HTML</p>
+            </a>
         </li>
         <li className="SkilsElement">
+          <a className="Link" href="https://ru.wikipedia.org/wiki/CSS">
           <img
             className="Img"
             alt="CSS"
@@ -23,9 +26,11 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">CSS</p>
+            <p className="TextSkil">CSS</p>
+            </a>
         </li>
         <li className="SkilsElement">
+          <a className="Link" href="https://ru.wikipedia.org/wiki/JavaScript">
           <img
             className="Img"
             alt="Java Script"
@@ -33,9 +38,11 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">Java Script</p>
+            <p className="TextSkil">Java Script</p>
+            </a>
         </li>
         <li className="SkilsElement">
+          <a className="Link" href="https://ru.wikipedia.org/wiki/React">
           <img
             className="Img"
             alt="React"
@@ -43,9 +50,11 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">React</p>
+            <p className="TextSkil">React</p>
+            </a>
         </li>
         <li className="SkilsElement">
+           <a className="Link" href="https://ru.wikipedia.org/wiki/Redux">
           <img
             className="Img"
             alt="Redux"
@@ -53,9 +62,11 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">Redux</p>
+            <p className="TextSkil">Redux</p>
+            </a>
         </li>
         <li className="SkilsElement">
+          <a className="Link" href="https://ru.wikipedia.org/wiki/NodeJS">
           <img
             className="Img"
             alt="Node"
@@ -63,7 +74,8 @@ export default function HardSkils() {
             width="128"
             height="128"
           />
-          <p className="TextSkil">Node</p>
+            <p className="TextSkil">Node</p>
+            </a>
         </li>
       </ul>
 

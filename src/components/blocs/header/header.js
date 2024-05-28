@@ -6,6 +6,7 @@ const modalRoot = document.querySelector("#modal-root");
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+    const [isPortfolioVisible, setIsPortfolioVisible] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -35,9 +36,38 @@ export default function Header() {
   }, [isOpen]);
 
   const scrollToSection = (sectionName) => {
+    if (sectionName === "portfolio") {
+      
+    }
     const section = document.getElementById(`section-${sectionName}`);
     section.scrollIntoView({ behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const portfolioSection = document.getElementById("section-portfolio");
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setIsPortfolioVisible(true);
+        } else {
+          setIsPortfolioVisible(false);
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    if (portfolioSection) {
+      observer.observe(portfolioSection);
+    }
+
+    return () => {
+      if (portfolioSection) {
+        observer.unobserve(portfolioSection);
+      }
+    };
+  }, []);
 
   const renderedModalWindow = useMemo(() => {
     return createPortal(
@@ -81,27 +111,27 @@ export default function Header() {
         <span className="BurgerLine" style={{ position: "relative", top: 0 }} />
         <span className="BurgerLine" style={{ position: "relative", top: 0 }} />
       </div>
-      { renderedModalWindow}
+      {renderedModalWindow}
       <ul className="HeaderList">
-        <li className="HeaderItem" onClick={() => scrollToSection("main")}>
+        <li className={`HeaderItem ${isPortfolioVisible ? 'active' : ''}`} onClick={() => scrollToSection("main")}>
           Main
         </li>
-        <li className="HeaderItem" onClick={() => scrollToSection("aboutMe")}>
+        <li className={`HeaderItem ${isPortfolioVisible ? 'active' : ''}`} onClick={() => scrollToSection("aboutMe")}>
           About me
         </li>
-        <li className="HeaderItem" onClick={() => scrollToSection("portfolio")}>
+        <li className={`HeaderItem ${isPortfolioVisible ? 'active' : ''}`} onClick={() => scrollToSection("portfolio")}>
           Portfolio
         </li>
         <li
-          className="HeaderItem"
+          className={`HeaderItem ${isPortfolioVisible ? 'active' : ''}`}
           onClick={() => scrollToSection("hard-skils")}
         >
           Skils
         </li>
-        <li className="HeaderItem" onClick={() => scrollToSection("contacts")}>
+        <li className={`HeaderItem ${isPortfolioVisible ? 'active' : ''}`} onClick={() => scrollToSection("contacts")}>
           Contacts
         </li>
-      </ul>
+        </ul>
     </HeaderMainContainer>
   );
 }

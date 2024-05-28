@@ -6,29 +6,36 @@ export const HeaderMainContainer = styled.div`
   /* border: 1px solid red; */
   border-radius: 5px;
   box-sizing: border-box;
-
-  @media only screen and (min-width: 768px) {
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-
   position: fixed;
-  backdrop-filter: blur(8px);
   z-index: 1000;
+  justify-content: center;
+  margin-top: 10px;
+
 
   .HeaderList {
     display: flex;
     list-style: none;
-    width: 100%;
+    max-width: 500px;
     margin: 0;
     padding: 0;
     justify-content: space-evenly;
     color: white;
     font-size: larger;
+     backdrop-filter: blur(8px);
+     border-radius: 20px;
+padding: 20px 40px;
+     gap: 30px;
     @media only screen and (max-width: 768px) {
       display: none;
     }
+
+      @media only screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   }
 
   .HeaderItem {
@@ -39,9 +46,13 @@ export const HeaderMainContainer = styled.div`
     }
   }
 
+  .HeaderItem.active {
+  color: black;
+}
+
   .LinkToContainer {
     text-decoration: none;
-    color: #fff;
+    /* color: #fff; */
 
     @media only screen and (max-width: 768px) {
       font-size: 12px;

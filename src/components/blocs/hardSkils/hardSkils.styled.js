@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import link from "../../../img/svg/link.svg"
 
 export const HardSkilsContainer = styled.div`
   width: 100%;
@@ -39,7 +40,20 @@ export const HardSkilsContainer = styled.div`
       transform: scale(1.1);
       box-shadow: 0 2px 12px rgba(0, 0, 0, 1.2);
     }
+    &:hover .TextSkil::after {
+      content: "";
+      width: 12px;
+      height: 12px;
+      background-image: url(${link});
+      position: absolute;
+      left: 10px;
+    }
   }
+  .Link{
+  text-decoration: none;
+  color: black;
+  }
+
 
   .Img {
     width: 50px;
@@ -80,6 +94,10 @@ export const HardSkilsContainer = styled.div`
 
   .SoftSkilsItem {
     position: relative;
+        font-size: 20px;
+    font-weight: 400;
+    font-family: serif;
+    font-family: "emoji";
     &::before {
       content: "";
       border-radius: 50%;
