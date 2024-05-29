@@ -42,6 +42,7 @@ padding: 20px 40px;
   .HeaderItem {
     cursor: pointer;
     transition: transform 0.3s ease;
+
     &:hover {
       transform: scale(1.1);
     }
@@ -112,6 +113,7 @@ display: none;
     width: 40%;
     height: 100%;
     backdrop-filter: blur(20px);
+     -webkit-backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
     align-items: center;
