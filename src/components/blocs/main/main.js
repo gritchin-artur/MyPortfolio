@@ -40,7 +40,7 @@ export default function Main() {
 
   const animationPropsRight = useSpring({
     opacity: scrollY > 100 ? 0 : 1,
-    transform: scrollY > 100 ? "translateX(100px)" : "translateX(0)",
+    transform: scrollY > 100 ? "translateX(10px)" : "translateX(0)",
   });
 
   return (

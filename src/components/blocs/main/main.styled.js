@@ -17,6 +17,10 @@ export const MainContainer = styled.div`
     height: 1000px;
   }
 
+  .ContentContainer{
+    box-sizing: border-box;
+  }
+
   .MyPhoto {
     max-width: 400px;
     @media only screen and (max-width: 500px) {
@@ -61,6 +65,10 @@ export const MainContainer = styled.div`
     font-size: 33px;
     font-weight: 900;
     line-height: 1.2;
+
+        @media only screen and (max-width: 500px) {
+margin: 0;
+    }
   }
 
   .TitleIconContacts {

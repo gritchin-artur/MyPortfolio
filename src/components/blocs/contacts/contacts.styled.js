@@ -11,22 +11,25 @@ export const ContactsContainer = styled.div`
   box-sizing: border-box;
   display: grid;
    gap: 50px;
+   padding-bottom: 20px;
 
         @media only screen and (min-width: 768px) {
     display: flex;
  height: 500px;
+ 
   }
 
   .ContentContainer {
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
           display: flex;
       gap: 20px;
       justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
     @media only screen and (min-width: 768px) {
-
        width: 30%;
     }
   }

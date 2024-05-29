@@ -104,7 +104,7 @@ export default function Header() {
   }, [isOpen]);
 
   return (
-    <HeaderMainContainer open={isOpen}>
+    <HeaderMainContainer open={isOpen} isPortfolioVisible={isPortfolioVisible}>
       <div className="BurgerMenu" onClick={toggleMenu}>
         {/* <span className="BurgerLine" /> */}
         <span className="BurgerLine" style={{ position: "relative", top: 0 }} />

@@ -79,7 +79,7 @@ padding: 20px 40px;
     @media only screen and (max-width: 768px) {
       width: 30px;
       height: 4px;
-      background-color: white;
+      background-color: ${({isPortfolioVisible}) => isPortfolioVisible? "grey" : "white"};
       transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
 
       ${({ open }) =>
