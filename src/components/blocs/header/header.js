@@ -68,7 +68,7 @@ export default function Header() {
       }
     };
   }, []);
-
+console.log(isOpen)
 
   const renderedModalWindow = useMemo(() => {
     return createPortal(
