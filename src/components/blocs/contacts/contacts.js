@@ -1,6 +1,6 @@
 import { ContactsContainer } from "./contacts.styled";
-import { ReactComponent as Phone } from "../../../img/svg/phone-call-svgrepo-com-2.svg";
-import { ReactComponent as Email } from "../../../img/svg/email-svgrepo-com-2.svg";
+import { ReactComponent as Phone } from "../../../img/svg/phone-call_5070407.svg";
+import { ReactComponent as Email } from "../../../img/svg/mailbox_7653238.svg";
 import { ReactComponent as PaperAirPlane } from "../../../img/svg/paperAirplane.svg";
 import { useState } from "react";
 import emailjs from "emailjs-com";
@@ -53,7 +53,7 @@ serviceId,
           <h3 className="ContactsTitle">My contact information:</h3>
           <ul className="ContactsList">
             <li className="ContactItem">
-              <Phone /> My telephone number:
+              <Phone style={{fill:"white", marginRight:"10px"}}/> My telephone number:
             </li>
             <li className="ContactItem">
               <a href="tel:+380685423675" className="Contact">
@@ -62,7 +62,7 @@ serviceId,
             </li>
             <li className="ContactItem">(Viber, WatsApp, Telegram)</li>
             <li className="ContactItem">
-              <Email /> My email:
+              <Email style={{fill:"white", marginRight:"10px"}}/> My email:
             </li>
             <li className="ContactItem">
               <a href="mailto:grit4in0225@icloud.com" className="Contact">
