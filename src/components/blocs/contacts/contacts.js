@@ -46,6 +46,7 @@ serviceId,
         alert("Failed to send email.");
       });
   };
+  console.log(formData)
   return (
     <ContactsContainer id="section-contacts">
       <div className="ContentContainer">
