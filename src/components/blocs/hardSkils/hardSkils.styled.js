@@ -94,10 +94,11 @@ export const HardSkilsContainer = styled.div`
 
   .SoftSkilsItem {
     position: relative;
-        font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     font-family: serif;
-    font-family: "emoji";
+    font-family: sans-serif;
+
     &::before {
       content: "";
       border-radius: 50%;
