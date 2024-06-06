@@ -16,22 +16,25 @@ I used to be a delivery driver, but I decided to radically change my life. I sig
 So if you really want something, do it and never give up. don't give up on your dreams. Always learn something new and don't sit in one place.
 
  <p align="center">  My soft skils: </p>
- 
-1️⃣ Organized
-2️⃣ Purposeful
-3️⃣ Resourceful
-4️⃣ Hardworking
-5️⃣ With the ability to work in a team
-6️⃣ I always achieve my goals
+
+ <ul display="block">
+<li>1️⃣ Organized</li>
+<li>2️⃣ Purposeful</li>
+<li>3️⃣ Resourceful</li>
+<li>4️⃣ Hardworking</li>
+<li>5️⃣ With the ability to work in a team</li>
+<li>6️⃣ I always achieve my goals</li>
+</ul>
 
  <p align="center"> My stack skils</p>
 
-1️⃣ HTML 
-2️⃣ CSS
-3️⃣ JAVA SCRIPT
-4️⃣ REACT
-5️⃣ REDUX
-6️⃣ REDUX ROUTER
-7️⃣ STYLED COMPONENTS
-
+<ul display="block">
+<li>1️⃣ HTML</li> 
+<li>2️⃣ CSS</li>
+<li>3️⃣ JAVA SCRIPT</li>
+<li>4️⃣ REACT</li>
+<li>5️⃣ REDUX</li>
+<li>6️⃣ REDUX ROUTER</li>
+<li>7️⃣ STYLED COMPONENTS</li>
+</ul>
  
