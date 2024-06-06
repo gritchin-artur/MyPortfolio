@@ -1,5 +1,5 @@
                                                            <h1 align="center">👋 My portfolio project</h1>
-                                     https://github.com/gritchin-artur/MyPortfolio/issues/1#issue-2338487683
+                                     <img width="813" alt="Снимок экрана 2024-06-06 в 12 47 26" src="https://github.com/gritchin-artur/MyPortfolio/assets/123599698/8e0a2f8b-03f6-41fe-9a73-abd4fef5f2f1">
 
 
 👆 This one-page portfolio website describes my capabilities. This project presents my contact information, CV, my skills, as well as my projects. This project will allow you to get to know me better as a developer. 
