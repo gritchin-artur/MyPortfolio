@@ -14,7 +14,6 @@ export const AboutMeContainer = styled.div`
     text-align: center;
     font-family: math;
     font-weight: 900;
-    /* color: #fff; */
     font-size: xxx-large;
   }
 
@@ -23,9 +22,6 @@ export const AboutMeContainer = styled.div`
     font-size: 1.4rem;
     font-weight: 500;
     font-family: emoji;
-    /* @media only screen and (min-width: 768px) {
-      width: 70%;
-    } */
   }
 
   .TextWhoIWas {

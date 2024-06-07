@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeaderMainContainer = styled.div`
   width: 100%;
   height: 50px;
-  /* border: 1px solid red; */
   border-radius: 5px;
   box-sizing: border-box;
     display: flex;
@@ -54,7 +53,6 @@ padding: 20px 40px;
 
   .LinkToContainer {
     text-decoration: none;
-    /* color: #fff; */
 
     @media only screen and (max-width: 768px) {
       font-size: 12px;

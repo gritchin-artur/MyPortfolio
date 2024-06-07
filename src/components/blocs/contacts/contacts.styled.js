@@ -21,7 +21,6 @@ export const ContactsContainer = styled.div`
 
   .ContentContainer {
     height: 100%;
-    /* width: 100%; */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
           display: flex;
@@ -37,12 +36,6 @@ export const ContactsContainer = styled.div`
   .ContactContainer {
     display: grid;
     align-items: center;
-    /* margin-top: 30px;
-    @media only screen and (min-width: 768px) {
-      margin-top: 0;
-      width: 30%;
-    } */
-
   }
 
   .ContactsTitle {
@@ -109,7 +102,7 @@ border-radius: 10px;
 padding: 10px;
     box-sizing: border-box;
     border: none;
-     background-color: rgba(255, 255, 255, 0.2); /* Прозрачный цвет */
+     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -133,7 +126,7 @@ padding: 10px;
 
     box-sizing: border-box;
     border: none;
-     background-color: rgba(255, 255, 255, 0.2); /* Прозрачный цвет */
+     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 

@@ -4,8 +4,6 @@ export const MainContainer = styled.div`
   display: flex;
   width: 100%;
   height: 526px;
-  /* border: 1px solid red; */
-  /* background: gray; */
   background: linear-gradient(to bottom right, black, gray);
   justify-content: space-around;
   padding: 100px 30px 0 30px;
@@ -93,13 +91,6 @@ margin: 0;
 
   .ContactsItem {
     cursor: pointer;
-    /* border-radius: 50%;
-    background-color: #fff;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 
     transition: transform 0.3s ease;
 

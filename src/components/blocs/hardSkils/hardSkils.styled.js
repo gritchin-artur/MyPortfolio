@@ -80,9 +80,6 @@ export const HardSkilsContainer = styled.div`
   }
 
   .SoftSkilsList{
-    /* display: flex;
-    gap: 50px;
-    flex-wrap: wrap; */
       display: grid;
   grid-template-columns: 1fr 1fr;  
   gap: 10px;  
