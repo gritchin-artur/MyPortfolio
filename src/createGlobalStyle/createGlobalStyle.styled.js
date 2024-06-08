@@ -1,18 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyled = createGlobalStyle`
-
-/* @font-face {
-  font-family: 'BasisGrotesquePro-Bold';
-  src: url('../fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'BasisGrotesquePro-Medium';
-  src: url('../fonts/BasisGrotesquePro-Medium.ttf') format('truetype');
-} */
-
-
 ul {
   list-style: none;
 }
@@ -32,8 +20,6 @@ p{
 body {
   font-family: serif;
    font-family: "Gilroy", sans-serif;
-  /* padding: 0 20px; */
-/* background: #141414; */
 box-sizing: border-box;
 }
 
@@ -41,10 +27,6 @@ box-sizing: border-box;
 button{
   cursor: pointer;
 }
-
-/* select {
-  -webkit-appearance: none;
-} */
 
 div[id="root"]{
 
